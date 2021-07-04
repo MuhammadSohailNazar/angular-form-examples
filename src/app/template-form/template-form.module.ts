@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CustomerSignupComponent } from './customer-signup/customer-signup.component';
 import { TemplateFormRoutingModule } from './template-form-routing.module';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -11,6 +12,7 @@ import { TemplateFormRoutingModule } from './template-form-routing.module';
   ],
   imports: [
     CommonModule,
+    FormsModule,
     TemplateFormRoutingModule
   ]
 })
