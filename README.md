@@ -1,8 +1,8 @@
 # Install bootstrap
 
 Command: npm i bootstrap
-Then import bootstrap in global css file
-_@import "~bootstrap/dist/css/bootstrap.min.css";_
+Then import bootstrap in global css file.
+@import "~bootstrap/dist/css/bootstrap.min.css";
 
 # AngularFormExample
 
